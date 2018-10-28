@@ -19,8 +19,8 @@ Libraries dplyr and stringr are used.
 *of the sample points in the original data set.*            
 
 "AVG-tBodyAcc-mean()-X"          
-"AVG-tBodyAcc-mean()-Y"
-"AVG-tBodyAcc-mean()-Z"
+"AVG-tBodyAcc-mean()-Y"      
+"AVG-tBodyAcc-mean()-Z"      
 "AVG-tGravityAcc-mean()-X"       
 "AVG-tGravityAcc-mean()-Y"        
 "AVG-tGravityAcc-mean()-Z"        
