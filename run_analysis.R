@@ -12,7 +12,7 @@
 ## 2. mean_tbl -- an average of the mean() and std() variables from original dataset
 ##                subsetted by person and activity
 ##
-mean_tbl <- function() {
+runAnalysis <- function() {
    
    library(dplyr)
    library(stringr)
