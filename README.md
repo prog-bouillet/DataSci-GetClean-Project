@@ -1,8 +1,8 @@
-#Coursera Data Science Program - Getting and Cleaning Data Course Project
-##Assignment Instructions
+# Coursera Data Science Program - Getting and Cleaning Data Course Project
+## Assignment Instructions
 Using data from [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones),
 do some merging and selecting of the tabular data to achieve a few rudimentary data manipulations and analyses.
-##How the script works
+## How the script works
 The root data directory is assumed to be at the same level with the processing script, runAnalysis.R.
 The script reads in the various data files and performs a merge of the training and test datasets using simple rbind() function.
 The variable columns representing mean and standard deviation of the features are extracted from the provided data
@@ -10,12 +10,12 @@ and formed into a separate data frame. Then the mean of each column is taken wit
 A new table is created with these mean values. The variable names are maintained in the table of means are very similar 
 to the original variable names, but have 'AVG-' prepended to differentiate.
 Libraries dplyr and stringr are used.
-##Codebook
+## Codebook
 "person"    - which of the 30 test subjects original data set - mapped directly from original data set   
 "activity"  - human-readable form of activity, mapped directly from original data set
 *Below items are described accurately in codebook of original data set.*
 *'AVG-' is prepended to indicate that the values represent averages*
-*  of the sample points in the original data set.*            
+*of the sample points in the original data set.*            
 "AVG-tBodyAcc-mean()-X"          
 "AVG-tBodyAcc-mean()-Y"           "AVG-tBodyAcc-mean()-Z"           "AVG-tGravityAcc-mean()-X"       
 "AVG-tGravityAcc-mean()-Y"        "AVG-tGravityAcc-mean()-Z"        "AVG-tBodyAccJerk-mean()-X"      
